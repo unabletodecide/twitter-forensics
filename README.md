@@ -66,8 +66,6 @@ Screenshot
 <br>
 <pre>python3 analysis py --location</pre>
 
-![map](https://user-images.githubusercontent.com/17202632/41524483-5baf98be-72e6-11e8-9130-c6db7380ae5d.png)
-
 location analysis runs through address http://localhost:5000/locations
 
 You must write Google Map Api Key in setting.py to display google map.
@@ -77,8 +75,6 @@ You must write Google Map Api Key in setting.py to display google map.
 <li>Runs hashtag analysis.</li>
 <br>
 <pre>python3 analysis.py --hashtag</pre> 
-
-![hashtag](https://user-images.githubusercontent.com/17202632/43121336-135e21e6-8f26-11e8-93bd-16fe966f8aeb.png)
 
 <li>Runs user analysis.</li>
 <br>
