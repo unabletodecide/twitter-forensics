@@ -26,7 +26,7 @@ A project written in Python to twitter tracking and analysis without using Twitt
 
 <b>Application work view:</b>
 
-![screen shot 2018-07-06 at 12 18 51](https://user-images.githubusercontent.com/17202632/42370978-d4ea95a6-8116-11e8-97c9-bd8bf0ac7299.png)
+Screenshot
 
 <ul>
   
@@ -36,31 +36,23 @@ A project written in Python to twitter tracking and analysis without using Twitt
 
 <li>Get tweets by username </li>
 <br>
-<pre> python3 tracking.py --username "HaberSau" </pre>
+<pre> python3 tracking.py --username "James" </pre>
 
 <li>Get tweets by query</li>
 
 <br>
 
-<pre> python3 tracking.py --query "sakarya" </pre>
+<pre> python3 tracking.py --query "smack" </pre>
 
 <li>Get tweet at a specific date range</li>
 <br>
-<pre> python3 tracking.py --username "HaberSau" --since 2015-09-10 --until 2015-09-12 --maxtweets 10 </pre>
+<pre> python3 tracking.py --username "Klaus" --since 2018-03-10 --until 2018-03-15 --maxtweets 10 </pre>
 
 <li> If you get location of tweets, add --location "True" param but application will be slower due to new response times.
 <br><br>
-<pre> python3 tracking.py --query "sakarya" --location "True"</pre>
+<pre> python3 tracking.py --query "smack" --location "True"</pre>
 
 </ul>
-
-<ul>
-  <li>If you want you can run the application on the docker. </li>
-  <br>
-  <pre>docker build . -t twitter-intelligence</pre>
-  <br>
-  <pre>docker run -it -p 5000:5000 --rm -v "images:/usr/src/app/images" twitter-intelligence</pre>
- </ul>
 
 ## Analysis
 
@@ -94,8 +86,7 @@ You must write Google Map Api Key in setting.py to display google map.
 
 
 ## Graphical User Interface
- If you want run gui application, you should change "#PyQt5==5.11.2" to "PyQt5==5.11.2" in requirements.txt and you can run the that command.
- <pre>pip3 install -r requirements.txt</pre>
+ If you want run gui application,
+ <pre>pip3 install -r requirements123.txt</pre>
  
  socialgui.py used for gui application
- 
